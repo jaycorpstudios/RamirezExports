@@ -1,0 +1,25 @@
+@import './../../theme/colors.scss';
+@import './../../theme/variables.scss';
+.header {
+  background: $color-background-primary;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: $shadow-deep-1;
+}
+.wrapper {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  padding: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner{
+  background-image: url('./../../images/nav-banner.jpg');
+  height: 150px;
+  width: 100%;
+  background-size: cover;
+  background-position-x: right;
+}

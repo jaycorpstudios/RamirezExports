@@ -1,0 +1,17 @@
+@import './../../theme/colors.scss';
+@import './../../theme/variables.scss';
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  color: $color-text-base;
+}
+.invert { 
+  color: white;
+}
+.navItem {
+  transition: $animation-medium;
+}
+.navItem:hover {
+  color: $color-primary;
+}
