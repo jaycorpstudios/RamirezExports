@@ -5,12 +5,16 @@
   display: flex;
   flex-direction: row;
   color: $color-text-base;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .invert { 
   color: white;
 }
 .navItem {
   transition: $animation-medium;
+  margin-left: 1rem;
 }
 .navItem:hover {
   color: $color-primary;

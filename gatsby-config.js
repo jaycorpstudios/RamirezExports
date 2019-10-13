@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Ramirez Group`,
+    description: `Ramirez Group is an international organization based in the beautiful province of British Columbia, Canada. Formed by a Mexican export company, a Canadian import company and a Canadian distribution company, we have it all covered!`,
+    author: `@jaycorpstudios`,
   },
   plugins: [
     `gatsby-plugin-sass`,

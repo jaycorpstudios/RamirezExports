@@ -8,7 +8,7 @@ const logo = require('./../../images/ramirez-logo.svg');
 const Header = ({ siteTitle }) => (
   <header className={styles.header}>
     <div className={styles.wrapper}>
-      <Link to='/'><img src={logo}/></Link>
+      <Link to='/'><img src={logo} alt='Ramirez Group Logo'/></Link>
       <Navigation/>
     </div>
     <div className={styles.banner}></div>

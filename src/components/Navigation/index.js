@@ -20,8 +20,8 @@ const renderItems = () => {
   })
 }
 
-const Navigation = ({ invert }) => {
-  const classes = classnames(styles.navigation, { [`${styles.invert}`] : invert } );
+const Navigation = ({ invert, className }) => {
+  const classes = classnames(styles.navigation, { [`${styles.invert}`] : invert }, className );
   return (
     <nav className={classes}>
       {renderItems(invert)}
