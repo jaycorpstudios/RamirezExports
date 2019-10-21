@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="40px" viewBox="0 0 52 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>hamburger-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-41.7%" y="-41.7%" width="183.3%" height="183.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header-Mobile" transform="translate(-309.000000, -22.000000)">
+            <g id="hamburger-icon" filter="url(#filter-1)" transform="translate(311.000000, 16.000000)">
+                <polygon id="Path" points="0 0 48 0 48 48 0 48"></polygon>
+                <path d="M6,36 L42,36 L42,32 L6,32 L6,36 Z M6,26 L42,26 L42,22 L6,22 L6,26 Z M6,12 L6,16 L42,16 L42,12 L6,12 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

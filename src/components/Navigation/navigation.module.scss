@@ -11,6 +11,10 @@
 }
 .invert { 
   color: white;
+  text-shadow: rgba(0,0,0,.5) 0 0 7px;
+}
+.invert:hover .navItem { 
+  text-shadow: rgba(0,0,0,0) 0 0 0;
 }
 .navItem {
   transition: $animation-medium;

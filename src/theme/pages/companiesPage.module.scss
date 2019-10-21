@@ -1,0 +1,17 @@
+@import './../variables.scss';
+
+.container {
+  text-align: center;
+}
+.title {
+  margin-bottom: 4rem;
+}
+.companies {
+  display: grid;
+  grid-gap: 8rem;
+  margin-bottom: 4rem;
+  @media screen and (min-width: $tablet-min) {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+  }
+}

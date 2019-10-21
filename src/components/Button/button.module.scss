@@ -1,0 +1,19 @@
+@import './../../theme/colors.scss';
+@import './../../theme/variables.scss';
+
+.button {
+  width: 100%;
+  max-width: 420px;
+  font-family: 'Roboto';
+  font-size: 2.5rem;
+  color: $color-text-negative;
+  padding: 1.75rem 3rem;
+  border: none;
+  border-radius: 3.5rem;
+  &.primary {
+    background-color: $color-primary;
+  }
+  &.secondary {
+    background-color: $color-secondary;
+  }
+}

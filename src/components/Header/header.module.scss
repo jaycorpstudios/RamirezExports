@@ -12,7 +12,7 @@
   display: flex;
   max-width: 1200px;
   width: 100%;
-  padding: 10px 0;
+  padding: 1rem;
   justify-content: space-between;
   align-items: center;
 }
@@ -22,4 +22,46 @@
   width: 100%;
   background-size: cover;
   background-position-x: right;
+}
+
+.bannerTitle {
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  padding-bottom: 2rem;
+  color: $color-text-negative;
+  text-shadow: rgba(0,0,0,.5) 0 0 7px;
+  @media screen and (min-width: $tablet-min) {
+    font-size: inherit;
+    align-items: flex-end;
+    justify-content: start;
+    margin-bottom: 2rem;
+    text-shadow: none;
+    color: $color-text-base;
+  }
+  &:before {
+    content: "";
+    display: block;
+    background-color: $color-primary;
+    width: 40%;
+    height: 4px;
+    position: absolute;
+    top: 35px;
+    @media screen and (min-width: $tablet-min) {
+      width: 4px;
+      height: 60px;
+      margin-right: 20px;
+      position: initial;
+    }
+  }
+}
+
+.logo {
+  height: 60px;
+  @media screen and (min-width: $laptop-min) {
+    height: auto;
+  }
 }

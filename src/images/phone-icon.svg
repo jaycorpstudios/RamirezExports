@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>phone-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Contact-Bar" transform="translate(-666.000000, -36.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-6">
+                <g transform="translate(666.000000, 35.000000)">
+                    <g id="call" transform="translate(0.000000, 1.000000)">
+                        <path d="M18.2745997,24.9160195 C22.5486999,29.1901197 27.4978001,33.2779198 29.4526002,31.3204197 C32.2552003,28.5205196 33.9805004,26.0797195 40.1554006,31.0423197 C46.3276008,36.0103199 41.5864007,39.3178201 38.8729005,42.0313202 C35.7436004,45.1633203 24.0715,42.1960202 12.5370995,30.6589197 C1.00269904,19.1164193 -1.96460108,7.4416188 1.16739905,4.30961867 C3.88089915,1.59611856 7.18839929,-3.14778163 12.1509995,3.02981862 C17.1135997,9.20471887 14.6754996,10.9327189 11.8728995,13.735319 C9.91809939,15.6901191 14.0031996,20.6419193 18.2745997,24.9160195" id="phone-icon"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

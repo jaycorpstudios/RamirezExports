@@ -1,0 +1,10 @@
+@import './../variables.scss';
+.container {
+  display: grid;
+  grid-gap: 2rem;
+  justify-items: center;
+  @media screen and (min-width: $tablet-min) {
+    grid-template-columns: 50% 41.666666666666667%;
+  }
+  
+}

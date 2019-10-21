@@ -1,0 +1,76 @@
+@import './../../theme/colors.scss';
+@import './../../theme/variables.scss';
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(209, 226, 125);
+  background-image: url('../../images/avocado-cover-mobile.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  @media screen and (min-width: $tablet-min) {
+    background-size: cover;
+    background-image: url('../../images/avocado-cover.jpg');
+  }
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 1200px;
+  width: 100%;
+  padding: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+  @media screen and (min-width: $tablet-min) {
+    flex-direction: row;
+  }
+}
+.logo {
+  width: 100%;
+  max-height: 285px;
+}
+.hamburgerIcon {
+  color: $color-text-negative;
+  background: none;
+  border: none;
+  font-size: 4.5rem;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  text-shadow: rgba(0,0,0,.5) 0 0 7px;
+}
+.navigation {
+  position: absolute;
+  right: 1rem;
+  top: 5.875rem;
+}
+.info {
+   min-width: 60%;
+}
+.title {
+  font-size: 3.25rem;
+  font-weight: 700;
+  position: relative;
+  margin-left: 2rem;
+  margin-bottom: 4rem;
+  @media screen and (min-width: $tablet-min) {
+    font-size: 8.125rem;
+  }
+  &:before {
+    content: "";
+    display: block;
+    background-color: $color-primary;
+    width: 4px;
+    height: 40px;
+    position: absolute;
+    top: -4px;
+    left: -2rem;
+    @media screen and (min-width: $tablet-min) {
+      height: 146px;
+    }
+  }
+}

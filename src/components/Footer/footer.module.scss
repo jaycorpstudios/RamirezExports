@@ -1,17 +1,55 @@
-.footer {
-  display: flex;
+@import './../../theme/colors.scss';
+@import './../../theme/variables.scss';
+
+.Footer {
+  display: grid;
+  grid-gap: 4rem;
   color: white;
   background-color: black;
   padding: 4rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-items: center;
 }
 
-.copyright {
+.Copyright {
   font-size: 1.5rem;
+  line-height: 3rem;
+  text-align: center;
 }
 
 .spaceBottom {
   margin-bottom: 4.5rem;
+}
+
+.ContactBar {
+  background-color: $color-primary;
+  padding: 4rem;
+  color: $color-text-negative;
+  display: grid;
+  grid-gap: 4rem;
+  justify-content: center;
+  @media screen and (min-width: $tablet-min) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.ContactItem {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 2rem;
+  justify-items: left;
+  align-items: center;
+}
+
+.SocialMedia {
+  text-align: center;
+}
+
+.SocialIcons {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 4rem;
+  justify-items: center;
+  align-items: center;
 }
