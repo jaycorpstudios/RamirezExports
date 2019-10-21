@@ -1,0 +1,52 @@
+@import './../../theme/colors.scss';
+@import './../../theme/variables.scss';
+
+.Container {
+  background-color: $color-background-navigation;
+  padding: 2rem;
+  width: 100%;
+  min-height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+  z-index: 1000;
+  animation: animateIn $animation-medium;
+}
+
+.NavItems {
+  display: grid;
+  text-align: center;
+}
+
+.NavItem {
+  font-size: 4rem;
+  color: white;
+  text-transform: uppercase;
+  border-bottom: solid 1px gray;
+  padding: 2rem;
+}
+
+.closeIcon {
+  color: $color-text-negative;
+  background: none;
+  border: none;
+  font-size: 4.5rem;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  text-shadow: rgba(0,0,0,.5) 0 0 7px;
+}
+.homeIcon {
+  display: contents;
+}
+
+@keyframes animateIn {
+  from {
+    transform: translateY(150%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

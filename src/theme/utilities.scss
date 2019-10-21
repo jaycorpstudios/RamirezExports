@@ -20,6 +20,11 @@
         display: none!important;
     }
 }
+.visible-sm {
+    @media screen and (min-width: $laptop-min) {
+        display: none!important;
+    }
+}
 .visible-lg {
     @media screen and (max-width: $laptop-min - 1) {
         display: none!important;

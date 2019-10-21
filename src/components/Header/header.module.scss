@@ -24,6 +24,13 @@
   background-position-x: right;
 }
 
+.hamburgerIcon {
+  color: $color-text-base;
+  background: none;
+  border: none;
+  font-size: 4.5rem;
+}
+
 .bannerTitle {
   font-size: 5rem;
   display: flex;

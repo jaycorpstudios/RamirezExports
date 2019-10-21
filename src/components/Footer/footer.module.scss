@@ -22,8 +22,11 @@
 
 .ContactBar {
   background-color: $color-primary;
-  padding: 4rem;
   color: $color-text-negative;
+  
+}
+.Wrapper {
+  padding: 4rem;
   display: grid;
   grid-gap: 4rem;
   justify-content: center;
@@ -52,4 +55,11 @@
   grid-gap: 4rem;
   justify-items: center;
   align-items: center;
+}
+
+.logo {
+  width: 70%;
+  @media screen and (min-width: $tablet-min) {
+    width: auto;
+  }
 }

@@ -5,6 +5,9 @@
   justify-items: center;
   @media screen and (min-width: $tablet-min) {
     grid-template-columns: 50% 41.666666666666667%;
-  }
-  
+  } 
+}
+
+.productImg {
+  width: 100%;
 }

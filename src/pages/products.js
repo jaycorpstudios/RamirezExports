@@ -18,7 +18,7 @@ const IndexPage = () => (
         <p><strong>Growing State:</strong>  Nayarit, Mexico.</p>
         <p><strong>Availability:</strong> Request Information.</p>
       </div>
-      <img src={avocadoImg}/>
+      <img src={avocadoImg} className={styles.productImg}/>
     </div>
   </Layout>
 )

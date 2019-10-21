@@ -11,16 +11,18 @@ const Quality = () => {
   const containerClasses = classnames('ui-main', styles.container);
   return (
     <section className={containerClasses}>
-      <div className={styles.info}>
-        <TitleHighlight text="It's all about quality"/>
-        <p className='text-base'>Ramirez Group produce growers comply with food safety and security standards and handling protocols to offer safe, high quality product. We are committed to consistently delivering high quality fresh produce.</p>
-      </div>
-      <div className={styles.logos}>
-        <img className={styles.logo} src={usdaLogo} alt="USDA Logo"/>
-        <img className={styles.logo} src={globalGapLogo} alt="Global G.A.P. Logo"/>
-        <img className={styles.logo} src={drcLogo} alt="RDC Logo"/>
-        <img className={styles.logo} src={primusLogo} alt="Primus GFS Logo"/>
-      </div>
+      <div className="ui-content">
+        <div className={styles.info}>
+          <TitleHighlight text="It's all about quality"/>
+          <p className='text-base'>Ramirez Group produce growers comply with food safety and security standards and handling protocols to offer safe, high quality product. We are committed to consistently delivering high quality fresh produce.</p>
+        </div>
+        <div className={styles.logos}>
+          <img className={styles.logo} src={usdaLogo} alt="USDA Logo"/>
+          <img className={styles.logo} src={globalGapLogo} alt="Global G.A.P. Logo"/>
+          <img className={styles.logo} src={drcLogo} alt="RDC Logo"/>
+          <img className={styles.logo} src={primusLogo} alt="Primus GFS Logo"/>
+        </div>
+      </div> 
     </section>
   )
 }
