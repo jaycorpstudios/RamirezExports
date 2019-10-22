@@ -7,7 +7,7 @@ import TitleHighlight from './../components/TitleHighlight'
 import styles from './../theme/pages/aboutPage.module.scss';
 
 const pageTitle = 'About us';
-const infoStyles = classnames('ui-md-col-7', styles.info);
+const infoStyles = classnames('ui-md-col-7 text-justify', styles.info);
 
 const IndexPage = () => (
   <Layout pageTitle={pageTitle}>

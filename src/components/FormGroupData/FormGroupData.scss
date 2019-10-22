@@ -1,0 +1,11 @@
+@import '../../theme/variables.scss';
+
+.FormGroupData {
+    &__title{
+        justify-self: normal;
+        @media screen and (min-width: $tablet-min) {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    }
+}

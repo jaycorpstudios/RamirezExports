@@ -26,9 +26,9 @@
   
 }
 .Wrapper {
-  padding: 4rem;
+  padding: 2rem;
   display: grid;
-  grid-gap: 4rem;
+  grid-gap: 2rem;
   justify-content: center;
   @media screen and (min-width: $tablet-min) {
     display: flex;
@@ -55,6 +55,14 @@
   grid-gap: 4rem;
   justify-items: center;
   align-items: center;
+}
+
+.SocialIcon {
+  width: 25px;
+}
+
+.ActionIcon {
+  width: 25px;
 }
 
 .logo {

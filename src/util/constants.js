@@ -3,5 +3,5 @@ export const navigationItems = [
   { title: 'Companies', link: '/companies' },
   { title: 'Products', link: '/products' },
   // { title: 'Contact', link: '/contact' },
-  // { title: 'Jobs', link: '/jobs' },
+  { title: 'Jobs', link: '/jobs' },
 ];

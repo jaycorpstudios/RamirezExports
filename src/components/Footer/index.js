@@ -19,26 +19,34 @@ const Footer = () => {
       <section className={classnames(styles.ContactBar, 'text-base')}>
         <div className={classnames(styles.Wrapper, 'ui-content')}>
           <div className={styles.ContactItem}>
-            <img src={emailIcon} alt="Email us"/>
+            <img src={emailIcon} className={styles.ActionIcon} alt="Email us"/>
             <span>
               <div>EMAIL US</div>
-              <a href='mailto:information@ramirezgroup.ca'>information@ramirezgroup.ca</a>
+              <a href='mailto:information@ramirezgroup.ca'><strong>information@ramirezgroup.ca</strong></a>
             </span>
           </div>
           <div className={styles.ContactItem}>
-            <img src={phoneIcon} alt="Call us now"/>
+            <img src={phoneIcon} className={styles.ActionIcon} alt="Call us now"/>
             <span>
               <div>CALL US NOW</div>
-              <a href='tel:+1(604)515-9339'>+1 (604) 515 9339</a>
+              <a href='tel:+1(604)515-9339'><strong>+1 (604) 515 9339</strong></a>
             </span>
           </div>
           <div className={styles.SocialMedia}>
-            <div>CALL US NOW</div>
+            <div>FOLLOW US</div>
             <div className={styles.SocialIcons}>
-              <a target="_blank" href='https://www.facebook.com/2-Ramirez-Imports-ltd-1951830621794433/'><img src={facebookIcon} alt="Follow us at Facebook"/></a>
-              <a target="_blank" href='https://www.instagram.com/2ramirezimports/'><img src={instagramIcon} alt="Follow us at Instagram"/></a>
-              <a target="_blank" href='http://www.linkedin.com/company/2ramirezimports'><img src={linkedinIcon} alt="Follow us at Linkedin"/></a>
-              <a target="_blank" href='https://twitter.com/2_imports'><img src={twitterIcon} alt="Follow us at Twitter"/></a>
+              <a target="_blank" href='https://www.facebook.com/2-Ramirez-Imports-ltd-1951830621794433/'>
+                <img src={facebookIcon} className={styles.SocialIcon} alt="Follow us at Facebook"/>
+              </a>
+              <a target="_blank" href='https://www.instagram.com/2ramirezimports/'>
+                <img src={instagramIcon} className={styles.SocialIcon} alt="Follow us at Instagram"/>
+              </a>
+              <a target="_blank" href='http://www.linkedin.com/company/2ramirezimports'>
+                <img src={linkedinIcon} className={styles.SocialIcon} alt="Follow us at Linkedin"/>
+              </a>
+              <a target="_blank" href='https://twitter.com/2_imports'>
+                <img src={twitterIcon} className={styles.SocialIcon} alt="Follow us at Twitter"/>
+              </a>
             </div>
           </div>
         </div>
